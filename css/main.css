@@ -1,0 +1,26 @@
+body, input, textarea, table, select, option, optgroup {
+    font: 12px/1.5 Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+a {
+    color: #39c;
+}
+h1 {
+    font-size: 22px;
+}
+h2 {
+    font-size: 18px;
+    border-bottom: 1px #999 dotted;
+    font-weight: normal;
+    color: #004a80;
+}
+h3 {
+    font-size: 14px;
+    color: #004a80;
+}
+abbr {
+    border-bottom: 1px #999 dotted;
+    cursor: help;
+}
+img {
+    vertical-align: middle;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="YAMG: Yet Another MooTools Gallery" />
+        <meta name="robots" content="all" />
+        <title>YAMG: Yet Another MooTools Gallery</title>
+        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/yamg.css" />
+        <!--[if IE]>
+        <link rel="stylesheet" type="text/css" media="all" href="css/mainie.css" />
+        <![endif]-->
+        <script type="text/javascript" src="js/mootools-1.2.1-core.js"></script>
+        <script type="text/javascript" src="js/codetoggle.js"></script>
+        <script type="text/javascript" src="js/yamg.js"></script>
+        <script type="text/javascript">
+            <!--
+            window.addEvent('domready', function() {
+                new YAMG('yamg');
+            });
+            //-->
+        </script>
+    </head>
+    <body>
+        <div class="container_12 wrapper">
+            <div class="grid_12">
+                <h2>Demo</h2>
+                <div id="yamg">
+                    <div class="images"></div>
+                    <div class="description"></div>
+                    <div class="controls">
+                        <div id="yamg_prev_project" title="View previous project"></div>
+                        <div id="yamg_next_project" title="View next project"></div>
+                    </div>
+                    <ul class="projects">
+                        <li class="project">
+                            <div class="project_description">
+                                <h3>Project 1</h3>
+                                <p class="date">January 2009</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus posuere eros vitae ligula. Sed pharetra. Maecenas feugiat tortor in massa.</p>
+                                <p>Phasellus convallis cursus lacus. Duis sodales ornare mi. In sagittis magna non leo. Praesent et diam. Proin nec nisl.</p>
+                            </div>
+                            <ul class="project_images">
+                                <li title="test"><img src="images/sample/1.jpg" alt="test" /></li>
+                            </ul>
+                        </li>
+                        <li class="project">
+                            <div class="project_description">
+                                <h3>Project 2</h3>
+                                <p class="date">January 2009</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus posuere eros vitae ligula. Sed pharetra. Maecenas feugiat tortor in massa.</p>
+                                <p>Phasellus convallis cursus lacus. Duis sodales ornare mi. In sagittis magna non leo. Praesent et diam. Proin nec nisl.</p>
+                            </div>
+                            <ul class="project_images">
+                                <li title="First image"><img src="images/sample/2.jpg" alt="First image" /></li>
+                                <li title="Second..."><img src="images/sample/3.jpg" alt="Second..." /></li>
+                                <li title="And third! &lt;haha...&gt;"><img src="images/sample/4.jpg" alt="And third! &lt;haha...&gt;" /></li>
+                            </ul>
+                        </li>
+                        <li class="project">
+                            <div class="project_description">
+                                <h3>Project 3</h3>
+                                <p class="date">January 2009</p>
+                                <p>Phasellus convallis cursus lacus. Duis sodales ornare mi. In sagittis magna non leo. Praesent et diam. Proin nec nisl.</p>
+                            </div>
+                            <ul class="project_images">
+                                <li title=""><img src="images/sample/5.jpg" alt="" /></li>
+                                <li title=""><img src="images/sample/1.jpg" alt="" /></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

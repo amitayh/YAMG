@@ -1,0 +1,82 @@
+#yamg ul {
+    list-style: none;
+}
+#yamg ul li {
+    margin: 0;
+}
+#yamg ul.project_images li {
+    margin-bottom: 20px;
+}
+#yamg.active {
+    width: 560px;
+    height: 420px;
+    overflow: hidden;
+    border: 10px #343434 solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+#yamg.active ul {
+    display: none;
+}
+#yamg.active .description {
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: 0;
+    background: url(../images/yamg/description_bg.png) repeat-y right;
+    padding-right:32px;
+    color: #fff;
+}
+#yamg.active .project_description {
+    padding: 10px;
+}
+#yamg.active .project_description h3,
+#yamg.active .project_description p  {
+    margin-bottom: 10px;
+}
+#yamg.active .project_description h3 {
+    font-family: Georgia, 'Times New Roman', Serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 22px;
+    border-bottom: 1px #545454 solid;
+}
+#yamg.active .project_description .date {
+    color: #ababab;
+}
+#yamg.active .project_image {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    background: #343434 url(../images/yamg/loading.gif) no-repeat center;
+}
+#yamg.active #yamg_prev_project,
+#yamg.active #yamg_next_project {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 160px;
+    cursor: pointer;
+}
+#yamg.active #yamg_prev_project {
+    background: url(../images/yamg/arrow_up.png) no-repeat center;
+    top: 20px;
+}
+#yamg.active #yamg_next_project {
+    background: url(../images/yamg/arrow_down.png) no-repeat center;
+    bottom: 20px;
+}
+
+#yamg.active .project_image_nav {
+    float: left;
+    display: inline;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: url(../images/yamg/bullet_black.png) no-repeat;
+}
+#yamg.active .project_image_nav.active {
+    background-image: url(../images/yamg/bullet_blue.png);
+}
